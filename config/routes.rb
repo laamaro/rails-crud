@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :restaurants, only: [:index, :new, :create]
+  resources :restaurants
   # # See ALL restaurants
   # get 'restaurants', to: 'restaurants#index'
 
